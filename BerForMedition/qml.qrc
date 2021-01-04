@@ -1,5 +1,16 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>qml/SysBtn.qml</file>
+        <file>qml/SysBtnGroup.qml</file>
+        <file>qml/HomePage.qml</file>
+    </qresource>
+    <qresource prefix="/image">
+        <file>image/close_hover.png</file>
+        <file>image/close_normal.png</file>
+        <file>image/close_pressed.png</file>
+        <file>image/min_hover.png</file>
+        <file>image/min_normal.png</file>
+        <file>image/min_pressed.png</file>
     </qresource>
 </RCC>

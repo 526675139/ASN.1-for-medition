@@ -21,6 +21,8 @@ RESOURCES += qml.qrc
 TRANSLATIONS += \
     BerForMedition_zh_CN.ts
 
+RC_ICONS = analyse.ico
+
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
 
