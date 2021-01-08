@@ -4,6 +4,7 @@
         <file>qml/SysBtn.qml</file>
         <file>qml/SysBtnGroup.qml</file>
         <file>qml/HomePage.qml</file>
+        <file>qml/LeftBar.qml</file>
     </qresource>
     <qresource prefix="/image">
         <file>image/close_hover.png</file>
@@ -12,5 +13,6 @@
         <file>image/min_hover.png</file>
         <file>image/min_normal.png</file>
         <file>image/min_pressed.png</file>
+        <file>image/background.jpg</file>
     </qresource>
 </RCC>

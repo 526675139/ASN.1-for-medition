@@ -5,10 +5,18 @@ import "qml"
 Window {
     id: mainWindow
     visible: true
-    width: 640
-    height: 480
+    visibility: Window.Maximized
+
     flags: Qt.Window | Qt.FramelessWindowHint
-    title: qsTr("Hello World")
+
+    onFocusObjectChanged:
+    {
+        if ( mainWindow.visibility != Window.Maximized )
+        {
+            console.log("change focus")
+            mainWindow.visibility = Window.Maximized
+        }
+    }
 
     HomePage{
         id: homePage
