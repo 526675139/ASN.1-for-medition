@@ -5,6 +5,7 @@
         <file>qml/SysBtnGroup.qml</file>
         <file>qml/HomePage.qml</file>
         <file>qml/LeftBar.qml</file>
+        <file>qml/InkButton.qml</file>
     </qresource>
     <qresource prefix="/image">
         <file>image/close_hover.png</file>
@@ -14,5 +15,7 @@
         <file>image/min_normal.png</file>
         <file>image/min_pressed.png</file>
         <file>image/background.jpg</file>
+        <file>image/inkClicked.gif</file>
+        <file>image/cloud_2.png</file>
     </qresource>
 </RCC>
