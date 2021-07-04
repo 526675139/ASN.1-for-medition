@@ -1,11 +1,19 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include "loadberfile.h"
 
 int main(int argc, char *argv[])
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
     QGuiApplication app(argc, argv);
+
+    //qmlRegisterType注册C++类型至QML
+    //arg1:import时模块名
+    //arg2:主版本号
+    //arg3:次版本号
+    //arg4:QML类型名
+    qmlRegisterType<LoadBerFile>("LoadBerFile",1,0,"LoadBerFile");
 
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/main.qml"));

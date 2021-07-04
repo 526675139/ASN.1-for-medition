@@ -1,11 +1,18 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
-        <file>qml/SysBtn.qml</file>
-        <file>qml/SysBtnGroup.qml</file>
+        <file>widget/SysBtn.qml</file>
+        <file>widget/SysBtnGroup.qml</file>
         <file>qml/HomePage.qml</file>
         <file>qml/LeftBar.qml</file>
-        <file>qml/InkButton.qml</file>
+        <file>widget/InkButton.qml</file>
+        <file>qml/DataCanvas.qml</file>
+        <file>widget/SearchString.qml</file>
+        <file>widget/Button_1.qml</file>
+        <file>widget/SkewingByte.qml</file>
+        <file>widget/PkgStruct.qml</file>
+        <file>widget/NodeInfomation.qml</file>
+        <file>widget/RichInfomation.qml</file>
     </qresource>
     <qresource prefix="/image">
         <file>image/close_hover.png</file>
